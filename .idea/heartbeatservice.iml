@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../balanceservice" />
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../siprtcsip" />
+    <content url="file://$MODULE_DIR$/../webapi" />
+    <content url="file://$MODULE_DIR$/../webfs" />
+    <content url="file://$MODULE_DIR$/../webgui" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
