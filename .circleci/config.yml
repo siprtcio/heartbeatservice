@@ -9,4 +9,4 @@ workflows:
           create-repo: true
           repo: "${CIRCLE_PROJECT_REPONAME}"
           region: ${AWS_REGION}
-          tag: "${CIRCLE_SHA1}"
+          tag: "${CIRCLE_BUILD_NUM}"
