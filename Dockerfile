@@ -9,7 +9,7 @@ WORKDIR /
 COPY --from=builder /go/src/github.com/siprtcio/heartbeatservice/app .
 COPY --from=builder /go/src/github.com/siprtcio/heartbeatservice/conf /conf
 
-HEALTHCHECK --timeout=5s --interval=3s --retries=3 CMD curl --fail http://localhost:8080/v1/health || exit 1
+HEALTHCHECK --timeout=5s --interval=60s --retries=3 CMD curl --fail http://localhost:8080/v1/health || exit 1
 
 EXPOSE 8080
 
